@@ -14,6 +14,7 @@
 <div class="card " style="width: 90%;">
     <div class="card-body ">
       <h2 class="card-title">Project's Name: {{ $project->title }}</h2>
+      <h4><span>Type: </span> {{ $project->type->name }} </h4>
       <h6>Author: {{ $project->author }}</h6>
       <p class="card-text">Content: {{ $project->content }}</p>
       <p>
